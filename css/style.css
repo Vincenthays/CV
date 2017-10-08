@@ -1,0 +1,146 @@
+html, body {
+    min-height: 100vh;
+    margin: 0px;
+    font-family: Arial;
+}
+
+body {
+    display: flex;
+}
+
+nav {
+    width: 250px;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+}
+
+nav > div {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.scrollbar {
+    overflow-y: scroll;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar {
+    margin-left: 10px;
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #EFC1B2;
+}
+
+nav img {
+    width: 180px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+body > section {
+    z-index: 1;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 260px;
+    max-height: 100vh;
+}
+
+header {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+header > div > div {
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.herder-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+/* Main */
+main {
+    flex: 1;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: flex;
+}
+
+aside {
+    width: 230px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+}
+
+@media screen and (max-width: 900px) {
+    aside {
+        display: none;
+    }
+}
+
+main > section {
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bolder;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.title-2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.title-3 {
+    color: var(--primary-color);
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.main-row {
+    display: flex;
+    margin: 10px;
+}
+
+.main-row > div {
+    padding: 10px;
+}
+
+.main-col-date {
+    flex: 1;
+    text-align: right;
+}
+
+.main-col-content {
+    flex: 5;
+}
+
+.main-row p {
+    margin: 5px 0;
+}

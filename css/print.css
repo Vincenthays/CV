@@ -1,0 +1,26 @@
+@page { 
+    margin: 2mm;
+}
+
+html {
+    zoom: 0.8;
+}
+
+header,
+main,
+aside {
+    box-shadow: none;
+}
+
+header {
+    border-bottom: 1px solid #A6A6A6;
+    padding-left: 0;
+}
+
+aside {
+    display: none;
+}
+
+.scrollbar {
+    overflow-y: auto;
+}
