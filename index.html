@@ -13,44 +13,42 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="scrollbar">
         <img src="img/photo_id.jpg" alt="photo">
-        <div class="scrollbar">
-            <div id="infos">
-                <div class="title">Infos</div>
-                <p>22 ans</p>
-                <p>*******</p>
-                <p><a href="mailto:vincenthays95@gmail.com">vincenthays95@gmail.com</a></p>
+        <div id="infos">
+            <div class="title">Infos</div>
+            <p>22 ans</p>
+            <p>Téléphone</p>
+            <p><a href="mailto:vincenthays95@gmail.com">vincenthays95@gmail.com</a></p>
+        </div>
+        <div id="skills">
+            <div class="title">Compétences</div>
+            <div>
+                <div class="title-3">Langue</div>
+                <p><span class="title-info">Anglais</span> : opérationnel</p>
+                <p>Plusieurs stages linguistiques dont un de 3 semaines en one to one en Angleterre (été 2012)</p>
+                <p>Espagnol : débutant</p>
+                <div class="title-3">Logiciels / Langages</div>
+                <p>HTML/CSS, PHP, SQL</p>
+                <p>Java, Java EE</p>
+                <p>Spring MVC</p>
+                <p>Symfony</p>
+                <p>JavaScript, jQuery, AngularJs, Reactjs</p>
+                <p>npm (Electron, React native, Express)</p>
+                <p>Xml, json</p>
+                <p>Pack office</p>
+                <p>Bootstrap</p>
+                <p>MatLab</p>
+                <p>Solidworks</p>
             </div>
-            <div id="skills">
-                <div class="title">Compétences</div>
-                <div>
-                    <div class="title-3">Langue</div>
-                    <p>Anglais : opérationnel</p>
-                    <p>Plusieurs stages linguistiques dont un de 3 semaines en one to one en Angleterre (été 2012)</p>
-                    <p>Espagnol : débutant</p>
-                    <p>Logiciels / Langages</p>
-                    <p>HTML/CSS, PHP, SQL</p>
-                    <p>Java, Java EE</p>
-                    <p>Spring MVC</p>
-                    <p>Symfony</p>
-                    <p>JavaScript, jQuery, AngularJs, Reactjs</p>
-                    <p>npm (Electron, React native, Express)</p>
-                    <p>Xml, json</p>
-                    <p>Pack office</p>
-                    <p>Bootstrap</p>
-                    <p>MatLab</p>
-                    <p>Solidworks</p>
-                </div>
-            </div>
-            <div id="hobbies">
-                <div class="title">Centre d'intérêts</div>
-                <div>
-                    <p>Running : 1 fois par semaine</p>
-                    <p>Rugby : 10 ans en club et une année en universitaire.</p>
-                    <p>Voyages : Espagne, Turquie, Afrique du Sud, Irlande, Angleterre, Italie, Danemark.</p>
-                    <p>Lecture de presse : The Verge, Le Figaro, Begeek, Android Authority, FrAndroid</p>
-                </div>
+        </div>
+        <div id="hobbies">
+            <div class="title">Centre d'intérêts</div>
+            <div>
+                <p>Running : 1 fois par semaine</p>
+                <p>Rugby : 10 ans en club et une année en universitaire.</p>
+                <p>Voyages : Espagne, Turquie, Afrique du Sud, Irlande, Angleterre, Italie, Danemark.</p>
+                <p>Lecture de presse : The Verge, Le Figaro, Begeek, Android Authority, FrAndroid</p>
             </div>
         </div>
     </nav>
@@ -66,107 +64,108 @@
             </div>
         </header>
         <main class="scrollbar">
-            <section>
-                <div>
-                    <div class="title">Expériences professionelles</div>
+            <section id="section-scroll">
+                <section>
                     <div>
-                        <div class="main-row">
-                            <div class="main-col-date">
-                                <p>2016</p>
-                                <p>6 mois</p>
-                            </div>
-                            <div class="main-col-content">
-                                <p class="title-2">Stage chez Eurofins (Développement d’un site web Symfony 3)</p>
-                                <p class="title-3">Réalisation complète du site <a href="http://mydata.eurofins.fr" target="_blank">mydata.eurofins.fr</a></p>
-                                <div>
-                                    <p>Utilisation des différents bundles de <strong>Symfony 3</strong> </p>
-                                    <p>Utilisation des bibliothèques <strong>dc.js</strong> et <strong>c3.js</strong> pour la gestion des graphiques</p>
-                                    <p>Il comporte des <strong>graphiques animés et filtrables</strong> </p>
-                                    <p>Un <strong>web service</strong> qui met à jour les données des graphiques</p>
-                                    <p>Un <strong>back office complet</strong> qui permet de gérer 4 niveaux de rôles</p>
-                                    <p><strong>Déploiement</strong> du site</p>
-                                    <p><strong>Sécurisation</strong> du site et du web service</p>
+                        <div class="title">Expériences professionelles</div>
+                        <div>
+                            <div class="main-row">
+                                <div class="main-col-date">
+                                    <p>2016</p>
+                                    <p>6 mois</p>
+                                </div>
+                                <div class="main-col-content">
+                                    <p class="title-2">Stage chez Eurofins (Développement d’un site web Symfony 3)</p>
+                                    <p class="title-3">Réalisation complète du site <a href="http://mydata.eurofins.fr" target="_blank">mydata.eurofins.fr</a></p>
+                                    <div>
+                                        <p>Utilisation des différents bundles de <strong>Symfony 3</strong> </p>
+                                        <p>Utilisation des bibliothèques <strong>dc.js</strong> et <strong>c3.js</strong> pour la gestion des graphiques</p>
+                                        <p>Il comporte des <strong>graphiques animés et filtrables</strong> </p>
+                                        <p>Un <strong>web service</strong> qui met à jour les données des graphiques</p>
+                                        <p>Un <strong>back office complet</strong> qui permet de gérer 4 niveaux de rôles</p>
+                                        <p><strong>Déploiement</strong> du site</p>
+                                        <p><strong>Sécurisation</strong> du site et du web service</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="main-row">
-                            <div class="main-col-date">
-                                <p>2017</p>
-                                <p>5 mois</p>
-                            </div>
-                            <div class="main-col-content">
-                                <p class="title-2">APP (Apprentissage par projets au sein de VIA, Danemark)</p>
-                                <div>
-                                    <p>React native</p>
+                            <div class="main-row">
+                                <div class="main-col-date">
+                                    <p>2017</p>
+                                    <p>5 mois</p>
+                                </div>
+                                <div class="main-col-content">
+                                    <p class="title-2">APP (Apprentissage par projets au sein de VIA, Danemark)</p>
+                                    <div>
+                                        <p>React native</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="main-row">
-                            <div class="main-col-date">
-                                <p>2017</p>
-                                <p>5 mois</p>
-                            </div>
-                            <div class="main-col-content">
-                                <p class="title-2">APP (Apprentissage par projets au sein de l’ISEP, Paris)</p>
-                                <p class="title-3">Réalisation compète d’une application web aidant à la communication professeurs/élèves</p>
-                                <div>
-                                    <p>Spring MVC</p>
+                            <div class="main-row">
+                                <div class="main-col-date">
+                                    <p>2017</p>
+                                    <p>5 mois</p>
+                                </div>
+                                <div class="main-col-content">
+                                    <p class="title-2">APP (Apprentissage par projets au sein de l’ISEP, Paris)</p>
+                                    <p class="title-3">Réalisation compète d’une application web aidant à la communication professeurs/élèves</p>
+                                    <div>
+                                        <p>Spring MVC</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="main-row">
-                            <div class="main-col-date">
-                                <p>2017</p>
-                                <p>2 mois</p>
-                            </div>
-                            <div class="main-col-content">
-                                <p class="title-2">APP (Apprentissage par projets au sein de l’ISEP, Paris)</p>
-                                <p class="title-3">Création d'un génératuer d'intinéraire dans le métro parisien</p>
-                                <div>
-                                    <p>Java</p>
+                            <div class="main-row">
+                                <div class="main-col-date">
+                                    <p>2017</p>
+                                    <p>2 mois</p>
+                                </div>
+                                <div class="main-col-content">
+                                    <p class="title-2">APP (Apprentissage par projets au sein de l’ISEP, Paris)</p>
+                                    <p class="title-3">Création d'un génératuer d'intinéraire dans le métro parisien</p>
+                                    <div>
+                                        <p>Java</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="main-row">
-                            <div class="main-col-date">
-                                <p>2015-2016</p>
-                                <p>5 mois</p>
-                            </div>
-                            <div class="main-col-content">
-                                <p class="title-2">APP (Apprentissage par projets au sein de l’ISEP, Paris)</p>
-                                <p class="title-3">Réalisation d’un site évènementiel (back office inclus) avec un groupe de 6 personnes en HTML/CSS, PHP et JavaScript (jQuery)</p>
-                                <div>
-                                    <p>Rédaction de documents de spécifications, livrable client, manuel utilisateur et manuel de déploiement</p>
-                                    <p></p>
+                            <div class="main-row">
+                                <div class="main-col-date">
+                                    <p>2015-2016</p>
+                                    <p>5 mois</p>
+                                </div>
+                                <div class="main-col-content">
+                                    <p class="title-2">APP (Apprentissage par projets au sein de l’ISEP, Paris)</p>
+                                    <p class="title-3">Réalisation d’un site évènementiel (back office inclus) avec un groupe de 6 personnes en HTML/CSS, PHP et JavaScript (jQuery)</p>
+                                    <div>
+                                        <p>Rédaction de documents de spécifications, livrable client, manuel utilisateur et manuel de déploiement</p>
+                                        <p></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <div class="title">Formation</div>
                     <div>
-                        <div class="main-row">
-                            <div class="main-col-date">
-                                <p></p>
-                                <p></p>
-                            </div>
-                            <div class="main-col-content">
-                                <p class="title-2"></p>
-                                <p class="title-3"></p>
-                                <div>
+                        <div class="title">Formation</div>
+                        <div>
+                            <div class="main-row">
+                                <div class="main-col-date">
                                     <p></p>
                                     <p></p>
+                                </div>
+                                <div class="main-col-content">
+                                    <p class="title-2"></p>
+                                    <p class="title-3"></p>
+                                    <div>
+                                        <p></p>
+                                        <p></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
+                <aside>
+                    <img src="img/logo/symfony.png" alt="Symfony">
+                </aside>
             </section>
-            <aside>
-                <img src="img/logo/symfony.png" alt="Symfony">
-                <img src="img/logo/symfony.png" alt="Symfony">
-            </aside>
         </main>
     </section>
 </body>

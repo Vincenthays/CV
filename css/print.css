@@ -7,7 +7,7 @@ html {
 }
 
 header,
-body > section ,
+body > section,
 aside {
     box-shadow: none;
 }
@@ -26,5 +26,5 @@ aside {
 }
 
 .scrollbar {
-    overflow-y: auto;
+    overflow-y: hidden;
 }
