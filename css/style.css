@@ -152,6 +152,11 @@ nav .title-3 {
     margin-left: 25px;
 }
 
+#section-scroll-content {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
 .title-info {
     color: var(--secondary-color);
     font-weight: bold;
@@ -163,17 +168,19 @@ nav .title-3 {
 }
 
 .main-row > div {
-    padding: 10px;
+    padding: 10px auto;
 }
 
 .main-col-date {
     min-width: 50px;
     flex: 1;
     text-align: right;
+    margin-right: 10px;
 }
 
 .main-col-content {
     flex: 6;
+    margin-left: 10px;
 }
 
 .main-row p {
