@@ -1,3 +1,7 @@
-$('body').children('section').click(() => {
-    $('body').toggleClass('mobile');
+$('header i').click(() => {
+    $('body').addClass('mobile');
+});
+
+$('main').click(() => {  
+    $('body').removeClass('mobile');
 });

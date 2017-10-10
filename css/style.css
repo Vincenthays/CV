@@ -184,3 +184,9 @@ nav .title-3 {
 .main-row p {
     margin: 5px 0;
 }
+
+header i {
+    display: none!important;
+    margin: 5px;
+    cursor: pointer;
+}

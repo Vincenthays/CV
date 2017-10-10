@@ -26,3 +26,19 @@ aside {
 body > section {
     margin: 0;
 }
+
+header i {
+    display: initial!important;
+}
+
+.herder-row  {
+    margin: 0 0;
+}
+
+#herder-name {
+    flex-wrap: wrap;
+}
+
+#herder-name > div {
+    margin: 5px auto;
+}
