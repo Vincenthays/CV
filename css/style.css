@@ -187,6 +187,6 @@ nav .title-3 {
 
 header i {
     display: none!important;
-    margin: 5px;
+    margin: auto 0;
     cursor: pointer;
 }
