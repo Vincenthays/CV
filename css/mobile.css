@@ -1,5 +1,15 @@
 nav {
-    display: none;
+    transform: translateX(-250px);
+}
+
+body.mobile nav {
+    transform: translateX(0px);
+}
+
+body.mobile > section {
+    opacity: .7;
+    filter: blur(2px);
+    background-color: #EDEDEC;
 }
 
 aside {

@@ -23,6 +23,8 @@ nav {
     flex-direction: column;
     position: fixed;
     background-color: white;
+    transition: .7s;
+    z-index: 2;
 }
 
 nav > div {
