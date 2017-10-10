@@ -1,9 +1,10 @@
 nav {
-    transform: translateX(-250px);
+    transform: translateX(-270px);
 }
 
 body.mobile nav {
     transform: translateX(0px);
+    transition: .7s;
 }
 
 body.mobile > section {
