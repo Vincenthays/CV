@@ -1,10 +1,14 @@
 nav {
-    transition: .7s;
+    transition: transform .7s;
     transform: translateX(-270px);
 }
 
 body.mobile nav {
     transform: translateX(0px);
+}
+
+body > section {
+    transition: background-color .7s, filter .7s, opacity .7s;
 }
 
 body.mobile > section {
