@@ -130,9 +130,6 @@ aside > img {
     font-weight: bolder;
     color: var(--primary-color);
     text-transform: uppercase;
-}
-
-nav .title {
     margin: 10px auto;
 }
 
