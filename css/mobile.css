@@ -8,7 +8,9 @@ body.mobile nav {
 }
 
 body > section {
-    transition: background-color .7s, filter .7s, opacity .7s;
+    transition: background-color .7s, 
+                filter .7s, 
+                opacity .7s;
 }
 
 body.mobile > section {
