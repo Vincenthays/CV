@@ -1,7 +1,7 @@
 $('header i').click(() => {
-    $('body').addClass('mobile');
+    $('body').addClass('nav-toggle');
 });
 
 $('main').click(() => {  
-    $('body').removeClass('mobile');
+    $('body').removeClass('nav-toggle');
 });

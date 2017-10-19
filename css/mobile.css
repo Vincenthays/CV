@@ -3,17 +3,18 @@ nav {
     transform: translateX(-270px);
 }
 
-body.mobile nav {
+body.nav-toggle nav {
     transform: translateX(0px);
 }
 
 body > section {
     transition: background-color .7s, 
                 filter .7s, 
-                opacity .7s;
+                opacity .7s,
+                margin .7s;
 }
 
-body.mobile > section {
+body.nav-toggle > section {
     opacity: .7;
     filter: blur(2px);
     background-color: #EDEDEC;
