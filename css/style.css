@@ -18,9 +18,9 @@ nav {
     height: 100vh;
     box-sizing: border-box;
     padding: 10px;
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     position: fixed;
     background-color: white;
     z-index: 2;
@@ -52,15 +52,19 @@ nav > div {
 }
 
 nav img {
-    width: 160px;
+    width: 180px;
     margin: 0 auto;
     box-sizing: border-box;
     margin-bottom: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
+nav .title-3 {
+    margin-top: 15px!important;
+}
+
 nav p {
-    margin: 5px 0;
+    margin: 7px 0;
 }
 
 body > section {
@@ -68,10 +72,12 @@ body > section {
     display: flex;
     flex-direction: column;
     margin-left: 280px;
-    max-height: 100vh;
 }
 
 header {
+    position: sticky;
+    top: 0px;
+    background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     padding: 10px;
     display: flex;
@@ -93,6 +99,12 @@ header > div > div {
 /* Main */
 main {
     flex: 1;
+    display: flex;
+    padding: 5px;
+}
+
+main > section {
+    flex: 1;
 }
 
 aside {
@@ -102,6 +114,7 @@ aside {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 10px;
 }
 
 
@@ -116,21 +129,13 @@ aside > img {
     }
 }
 
-#section-scroll {
-    display: flex;
-    padding: 20px 15px;
-}
-
-#section-scroll section {
-    flex: 1;
-}
-
 .title {
     font-size: 18px;
     font-weight: bolder;
     color: var(--primary-color);
     text-transform: uppercase;
-    margin: 10px auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 .title-2 {
@@ -150,11 +155,6 @@ nav .title-3 {
     margin-left: 25px;
 }
 
-#section-scroll-content {
-    margin: 0 auto;
-    max-width: 700px;
-}
-
 .title-info {
     color: var(--secondary-color);
     font-weight: bold;
@@ -162,15 +162,11 @@ nav .title-3 {
 
 .main-row {
     display: flex;
-    margin: 10px 0;
-}
-
-.main-row > div {
-    padding: 10px auto;
+    margin: 15px 0;
 }
 
 .main-col-date {
-    min-width: 50px;
+    min-width: 60px;
     flex: 1;
     text-align: right;
     margin-right: 10px;
