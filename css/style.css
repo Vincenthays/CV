@@ -104,22 +104,25 @@ main {
 
 main > section {
     flex: 1;
+    margin: auto;
+    max-width: 800px;
 }
 
 aside {
-    width: 230px;
+    width: 170px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background-color: white;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
     margin-left: 10px;
 }
 
 
 aside > img {
-    height: 100px;
-    margin: 5px auto;
+    margin: 15px auto;
+    max-height: 100px;
+    max-width: 100px;
 }
 
 @media screen and (max-width: 900px) {
@@ -133,8 +136,7 @@ aside > img {
     font-weight: bolder;
     color: var(--primary-color);
     text-transform: uppercase;
-    margin-top: 15px;
-    margin-bottom: 10px;
+    margin: 10px auto;
 }
 
 .title-2 {
