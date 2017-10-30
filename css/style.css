@@ -6,7 +6,7 @@ a {
 html, body {
     min-height: 100vh;
     margin: 0px;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -23,7 +23,7 @@ nav {
     justify-content: flex-start;
     position: fixed;
     background-color: white;
-    z-index: 2;
+    z-index: 3;
 }
 
 nav > div {
@@ -186,4 +186,8 @@ header i {
     display: none!important;
     margin: auto 5px;
     cursor: pointer;
+}
+
+.text-indentation {
+    margin-left: 25px;
 }

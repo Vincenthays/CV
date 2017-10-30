@@ -15,9 +15,7 @@ body > section {
 }
 
 body.nav-toggle > section {
-    opacity: .7;
-    filter: blur(2px);
-    background-color: #EDEDEC;
+    filter: blur(10px);
 }
 
 aside {
