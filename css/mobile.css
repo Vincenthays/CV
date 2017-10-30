@@ -8,14 +8,11 @@ body.nav-toggle nav {
 }
 
 body > section {
-    transition: background-color .7s, 
-                filter .7s, 
-                opacity .7s,
-                margin .7s;
+    transition: filter .7s;
 }
 
 body.nav-toggle > section {
-    filter: blur(10px);
+    filter: blur(5px);
 }
 
 aside {
