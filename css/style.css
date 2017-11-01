@@ -191,3 +191,7 @@ header i {
 .text-indentation {
     margin-left: 25px;
 }
+
+main ul {
+    margin: 0px;
+}
