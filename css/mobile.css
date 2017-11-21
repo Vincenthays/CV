@@ -1,11 +1,11 @@
 nav {
-    transition: transform .7s;
+    /* transition: transform .7s; */
     transform: translateX(-270px);
 }
 
-body.nav-toggle nav {
+/* body.nav-toggle nav {
     transform: translateX(0px);
-}
+} */
 
 body > section {
     transition: filter .7s;
